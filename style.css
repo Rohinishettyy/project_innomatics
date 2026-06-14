@@ -1,0 +1,39 @@
+body{
+font-family:Arial,sans-serif;
+}
+
+.hero{
+background:url('https://images.unsplash.com/photo-1517838277536-f5f99be501cd?w=1600') center/cover;
+height:90vh;
+}
+
+.overlay{
+height:100%;
+background:rgba(0,0,0,.6);
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.hero h1{
+font-size:60px;
+font-weight:bold;
+}
+
+.membership{
+background:#ff5c5c;
+padding:80px 0;
+}
+
+.card{
+margin-bottom:20px;
+border:none;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.trainer{
+width:150px;
+height:150px;
+object-fit:cover;
+margin-bottom:15px;
+}
